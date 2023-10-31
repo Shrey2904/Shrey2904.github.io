@@ -1,0 +1,119 @@
+.home-page{
+    .text-zone {
+        position: absolute;
+        left: 10%;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 40%;
+        max-height: 90%;
+    }
+
+    h1{
+        color: white;
+        font-size: 53px;
+        margin: 0;
+        font-family: 'Coolvetica';
+        font-weight: 500;
+
+        &::before {
+            //content: '<h1>';
+            font-family: 'La Belle Aurore', cursive;
+            color: #ffd700;
+            font-size: 18px;
+            position: absolute;
+            margin-top: -40px;
+            left: -15px;
+            opacity: 0.6;
+        }
+
+        &::after {
+            //content: '<h1>';
+            font-family: 'La Belle Aurore', cursive;
+            color: #ffd700;
+            font-size: 18px;
+            position: absolute;
+            margin-top: 18px;
+            margin-left: 20px;
+            animation: fadeIn 1s 1.7s backwards;
+            opacity: 0.6;
+        }
+
+        @keyframes slide-in {
+            0% {
+                transform: translate(-500px, -700px);
+                opacity: 0;
+            }
+
+            100%{
+                transform: translate(0, 0);
+                opacity: 1;
+            }
+            
+        }
+ 
+        img{
+            width: 32px;
+            margin-left: 20px;
+            opacity: 0;
+            height: auto;
+            animation: slide-in 2.5s ease-in-out forwards;
+        }
+    }
+
+    h2{
+        color: white;
+        margin-top: 20px;
+        font-weight: 500;
+        font-size: 20px;
+        font-family: 'Coolvetica';
+        letter-spacing: 2px;
+        animation: fadeIn 1s 1.8s backwards;
+    }
+
+    .button{
+        color: #ffd700;
+        font-size: 15px;
+        font-weight: 500;
+        letter-spacing: 3px;
+        font-family: 'Coolvetica';
+        text-decoration: none;
+        padding: 10px 20px;
+        border: 2px solid #ffd700;
+        border-radius: 5px;
+        margin-top: 25px;
+        float: left;
+        animation: fadeIn 1s 1.8s backwards;
+        white-space: nowrap;
+
+        &:hover{
+            background: #ffd700;
+            color: black;
+        }
+
+    }
+
+
+
+    .button-res{
+        color: #ffd700;
+        font-size: 15px;
+        font-weight: 500;
+        letter-spacing: 3px;
+        font-family: 'Coolvetica';
+        text-decoration: none;
+        padding: 10px 20px;
+        border: 2px solid #ffd700;
+        border-radius: 5px;
+        margin-top: 25px;
+        margin-left: 10px;
+        float: left;
+        animation: fadeIn 1s 1.8s backwards;
+        white-space: nowrap;
+
+        &:hover{
+            background: #ffd700;
+            color: black;
+        }
+
+    }
+}
