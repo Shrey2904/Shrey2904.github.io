@@ -2,6 +2,7 @@ import Initial from '../../assets/images/initial.png';
 import { Link } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 import AnimatedLetters from '../LetterAnimation';
+import Logo from './Logo'
 import './index.scss';
 import Loader from 'react-loaders';
 
@@ -46,7 +47,7 @@ const Home = () => {
                     <Link to='/contact' className='button'>CONNECT WITH ME</Link>
                     <Link to='https://drive.google.com/file/d/1hh6tTbETzWioOBjiq6jMjAVG9v9UT8RG/view?usp=sharing' className='button-res'>RESUME</Link>
                 </div>
-
+                <Logo />
                 
             </div>
             <Loader type='pacman'/>
