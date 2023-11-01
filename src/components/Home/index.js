@@ -43,8 +43,8 @@ const Home = () => {
                     <AnimatedLetters letterClass={letterClass} strArray={jobarr} idx={27} />
                     </h1>
                     <h2>Python Expert / ML & AI Enthusiast / Tech Aficionado</h2>
-                    <Link to='/contact' className='button'>CONNECT WITH ME</Link>
-                    <Link to='https://drive.google.com/file/d/1hh6tTbETzWioOBjiq6jMjAVG9v9UT8RG/view?usp=sharing' className='button-res'>RESUME</Link>
+                    <Link to='/contact' className='button'>Connect With Me</Link>
+                    <Link to='https://drive.google.com/file/d/1hh6tTbETzWioOBjiq6jMjAVG9v9UT8RG/view?usp=sharing' className='button-res'>Resume</Link>
                     <Link to='https://www.linkedin.com/in/shrey2904' className='button-linkedIn'>LinkedIn</Link>
                     <Link to='https://github.com/Shrey2904' className='button-github'>GitHub</Link>
                 </div>
