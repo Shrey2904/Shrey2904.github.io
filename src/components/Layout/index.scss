@@ -2,6 +2,7 @@
     width: 100%;
     height: 100%;
     position: absolute;
+    overflow: visible;
 }
 
 .top-tags{
@@ -42,7 +43,6 @@
 }
 
 .about-page{
-    overflow-y: visible;
     .text-zone{
         overflow: visible;
         position: absolute;
@@ -368,6 +368,14 @@
                 color: white;
             }
     
+        }
+    }
+}
+
+@media screen and (max-height: 600px) {
+    .about-page{
+        .text-zone{
+        overflow: visible;
         }
     }
 }

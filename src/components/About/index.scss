@@ -1,8 +1,3 @@
-.about-page{
-  overflow: visible;
-}
-
-
 .stage-cube-cont {
     overflow: visible;
     width: 50%;
@@ -99,5 +94,11 @@
       width: 100%;
       height: 0%;
       overflow: visible;
+    }
+  }
+
+  @media screen and (max-height: 600px) {
+    .about-page{
+        overflow: visible;
     }
   }
