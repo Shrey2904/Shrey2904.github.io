@@ -37,11 +37,12 @@
     transform-style: preserve-3d;
     animation: fadeIn 1s forwards;
     animation-delay: 1s;
+    overflow: visible;
 
 }
 
 .about-page{
-    overflow: visible;
+    overflow-y: visible;
     .text-zone{
         overflow: visible;
         position: absolute;
@@ -90,6 +91,7 @@
         }
 
         p {
+            overflow: visible;
             font-size: 15px;
             color: white;
             font-family: sans-serif;
@@ -195,7 +197,7 @@
 }
 
 
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 1250px){
     .page{
         position: initial;
     }
