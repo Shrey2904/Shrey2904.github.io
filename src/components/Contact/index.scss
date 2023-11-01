@@ -54,7 +54,7 @@
       padding: 20px;
       box-sizing: border-box;
       min-height: 150px;
-      max-width: 668px;
+      max-width: 532px;
     }
   
     .flat-button {
@@ -132,5 +132,20 @@
     
     .info-map {
       display: none;
+    }
+
+    .contact-form{
+      textarea {
+        width: 100%;
+        border: 0;
+        background: #115173;
+        height: 50px;
+        font-size: 16px;
+        color: #fff;
+        padding: 20px;
+        box-sizing: border-box;
+        min-height: 150px;
+        max-width: 100%;
+      }
     }
   }

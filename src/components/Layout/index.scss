@@ -64,7 +64,7 @@
             left: 10px;
 
             &::before {
-                content: '<h1>';   //we will edit this
+                content: '';   //we will edit this
                 font-family: 'La Belle Aurore', cursive;
                 color: #ffd700;
                 font-size: 18px;
@@ -76,7 +76,7 @@
             }
         
             &::after {
-            content: '<h1/>';
+            content: '';
             font-family: 'La Belle Aurore', cursive;
             color: #ffd700;
             font-size: 18px;
@@ -120,6 +120,7 @@
 }
 
 .contact-page{
+    overflow-y: scroll;
     .text-zone{
         position: absolute;
         left: 10%;
@@ -141,7 +142,7 @@
             left: 10px;
 
             &::before {
-                content: '<h1>';   //we will edit this
+                content: '';   //we will edit this
                 font-family: 'La Belle Aurore', cursive;
                 color: #ffd700;
                 font-size: 18px;
@@ -153,7 +154,7 @@
             }
         
             &::after {
-            content: '<h1/>';
+            content: '';
             font-family: 'La Belle Aurore', cursive;
             color: #ffd700;
             font-size: 18px;
@@ -167,7 +168,7 @@
         }
 
         p {
-            font-size: 18px;
+            font-size: 17px;
             color: white;
             font-family: sans-serif;
             font-weight: 300;
