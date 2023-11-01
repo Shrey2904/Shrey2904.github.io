@@ -1,7 +1,7 @@
 .home-page{
     .text-zone {
         position: absolute;
-        left: 10%;
+        left: 38%;
         top: 50%;
         transform: translateY(-50%);
         width: 40%;
@@ -40,7 +40,7 @@
 
         @keyframes slide-in {
             0% {
-                transform: translate(-500px, -700px);
+                transform: translate(-1200px, -600px);
                 opacity: 0;
             }
 
@@ -114,6 +114,74 @@
             background: #ffd700;
             color: black;
         }
+    }
+}
 
+@media screen and (max-width: 1200px){
+    .home-page{
+        .text-zone{
+            position: initial;
+            width: 100%;
+            transform: none;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+
+        .button
+        {
+            float: none;
+            display: block;
+            margin: 20px auto 0 auto;
+            width: 162px;
+            margin-top: 50px;
+            
+        }
+
+        .button-res{
+            float: none;
+            display: block;
+            margin: 20px auto 0 auto;
+            width: 66px;
+            align-content: center;
+            padding: 10px;
+            margin-top: 30px;
+        }
+
+        h1{
+            font-size: 44px;
+
+
+
+            @keyframes slide-in {
+                0% {
+                    transform: translate(-300%, -500%);
+                    opacity: 0;
+                }
+    
+                100%{
+                    transform: translate(0, 0);
+                    opacity: 1;
+                }
+                
+            }
+     
+            img{
+                width: 27px;
+                margin-left: 20px;
+                opacity: 0;
+                height: auto;
+                animation: slide-in 2.5s ease-in-out forwards;
+            }
+        }
+
+        h2{
+            color: white;
+            margin-top: 20px;
+            font-weight: 500;
+            font-size: 15px;
+            font-family: 'Coolvetica';
+            letter-spacing: 2px;
+            animation: fadeIn 1s 1.8s backwards;
+        }
     }
 }
